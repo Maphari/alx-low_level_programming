@@ -12,8 +12,7 @@ int main(void)
 	int baseTenNumbers;
 
 	for (baseTenNumbers = 0; baseTenNumbers < 10; baseTenNumbers++)
-	printf(baseTenNumbers);
-	printf("\n");
-
+	printf("%d\n", baseTenNumbers);
+	
 	return (0);
 }
