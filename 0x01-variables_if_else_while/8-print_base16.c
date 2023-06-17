@@ -10,9 +10,13 @@
 int main(void)
 {
 	int basesixteenNum;
+	int baseTen = 10;
 
 	for (basesixteenNum = 0; basesixteenNum < 16; basesixteenNum++)
-	putchar(basesixteenNum + '0');
+	if (basesixteenNum < 10)
+	putchar(basesixteenNum);
+	else
+	putchar(basesixteenNum - baseTen + 'a');
 	putchar('\n');
 
 	return (0);
