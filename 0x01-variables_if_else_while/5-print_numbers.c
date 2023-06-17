@@ -4,7 +4,7 @@
  * main - print base 10 numbers
  * from 0 - 9
  *
- * Retuen: Always 0
+ * Return: Always 0
  */
 
 int main(void)
