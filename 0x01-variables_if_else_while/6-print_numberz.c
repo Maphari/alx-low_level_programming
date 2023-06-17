@@ -11,9 +11,9 @@
 int main(void)
 {
 	int baseTenNumbers;
-
+	
 	for (baseTenNumbers = 0; baseTenNumbers < 10; baseTenNumbers++)
-	putchar(baseTenNumbers);
+	putchar(baseTenNumbers + '0');
 	putchar('\n');
 
 	return (0);
