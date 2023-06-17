@@ -14,7 +14,7 @@ int main(void)
 
 	for (basesixteenNum = 0; basesixteenNum < 16; basesixteenNum++)
 	if (basesixteenNum < 10)
-	putchar(basesixteenNum);
+	putchar(basesixteenNum + '0');
 	else
 	putchar(basesixteenNum - baseTen + 'a');
 	putchar('\n');
