@@ -14,6 +14,6 @@ int main(void)
 	for (alphabetsLetters = 'z'; alphabetsLetters >= 'a'; alphabetsLetters--)
 	putchar(alphabetsLetters);
 	putchar('\n');
-	
-	return (0);	
+
+	return (0);
 }
