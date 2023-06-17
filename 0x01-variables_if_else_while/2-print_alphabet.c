@@ -3,15 +3,15 @@
 /**
  * main - printing alphabets in lowecase
  *
- * Return : Always 0
+ * Return: Always 0
  */
 
 int main(void)
 {
-	char alphabets;
+	char alphabetsLetters;
 
-	for (alphabets = 'a'; alphabets <= 'z'; alphabets++)
-	putchar(alphabets);
+	for (alphabetsLetters = 'a'; alphabetsLetters <= 'z'; alphabetsLetters++)
+	putchar(alphabetsLetters);
 	putchar('\n');
 
 	return (0);
