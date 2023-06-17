@@ -16,6 +16,7 @@ int main(void)
 	if (aphabetsLetters == 'e' || aphabetsLetters == 'q')
 	{
 	break;
+	continue;
 	}
 	putchar(aphabetsLetters);
 	}
