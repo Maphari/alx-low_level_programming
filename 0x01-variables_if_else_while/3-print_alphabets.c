@@ -9,13 +9,13 @@
 
 int main(void)
 {
-	char alphabetsLettersInLowercase;
-	char alphabetsLettersInUppercase;
+	char alphabetsInLowercase;
+	char alphabetsInUppercase;
 
-	for (alphabetsLettersInLowercase = 'a'; alphabetsLettersInLowercase <= 'z'; alphabetsLettersInLowercase++)
-	putchar(alphabetsLettersInLowercase);
-	for(alphabetsLettersInUppercase = 'A'; alphabetsLettersInUppercase <= 'Z'; alphabetsLettersInUppercase++)
-	putchar(alphabetsLettersInUppercase);
+	for (alphabetsInLowercase = 'a'; alphabetsInLowercase <= 'z'; alphabetsInLowercase++)
+	putchar(alphabetsInLowercase);
+	for (alphabetsInUppercase = 'A'; alphabetsInUppercase <= 'Z'; alphabetsInUppercase++)
+	putchar(alphabetsInUppercase);
 	putchar('\n');
 
 	return (0);
