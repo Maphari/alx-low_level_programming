@@ -12,14 +12,8 @@ int main(void)
 	char aphabetsLetters;
 
 	for (aphabetsLetters = 'a'; aphabetsLetters <= 'z'; aphabetsLetters++)
-	{
-	if (aphabetsLetters == 'e' || aphabetsLetters == 'q')
-	{
-	break;
-	continue;
-	}
+	if (aphabetsLetters != 'e' && aphabetsLetters != 'q')
 	putchar(aphabetsLetters);
-	}
 	putchar('\n');
 
 	return (0);
