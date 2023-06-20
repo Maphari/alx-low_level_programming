@@ -15,7 +15,7 @@ if (n < 0)
 {
 lastDigitNumber = (-1 * (n % 10));
 _putchar (lastDigitNumber + '0');
-return lastDigitNumber;
+return (lastDigitNumber);
 }
 else
 {
