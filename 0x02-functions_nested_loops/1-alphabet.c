@@ -14,8 +14,10 @@ int main(void)
 }
 
 void print_alphabet()
-{
-        for (int letters = 'a'; letters <= 'z'; letters++)
+{	
+	char letters;
+
+        for (letters = 'a'; letters <= 'z'; letters++)
 	_putchar(letters);
         _putchar('\n');
 }
